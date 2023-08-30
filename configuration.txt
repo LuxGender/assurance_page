@@ -1,0 +1,1 @@
+importar boostrap siempre al crear un .html
