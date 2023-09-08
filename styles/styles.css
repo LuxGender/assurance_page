@@ -26,9 +26,18 @@
 
 }
 
+.main-menu-cars{
+    display: flex !important;
+    width:100% !important;
+    align-items: center !important;
+    min-height: calc(100vh - 140px) !important;
+
+}
+
 .aside-left{
     padding:1em;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -108,3 +117,19 @@
   }
 
 
+  .header-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container-table{
+    width: 100%;
+}
+
+.btn-confirmar-cars{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

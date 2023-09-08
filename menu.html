@@ -2,55 +2,75 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/normalize.css">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 </head>
 
 <body class="body-menu">
     <header class="header-menu">
-        HEADER
+        <div class="header-container">
+            <h3 class="color-text">Restaurante el buen Gusto</h3>
+        </div>
     </header>
     <main class="container main-menu">
         <aside class="aside-left">
             <div class="">
                 <button class="btn btn-primary btn-menu" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Menu
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    Menu
                     <i class="bi bi-justify"></i>
                 </button>
 
                 <div class="offcanvas offcanvas-start" data-bs-scroll="false" tabindex="-1"
                     id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                     <div class="offcanvas-header back-mod">
-                        <h5 class="offcanvas-title color-text" id="offcanvasWithBothOptionsLabel">Seleccione opcion</h5>
+                        <h5 class="offcanvas-title color-text" id="offcanvasWithBothOptionsLabel">
+                            Seleccione opcion
+                        </h5>
                         <button type="button" class="btn-close close-modal" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                        <p>
+                            Try scrolling the rest of the page to see this option in action.
+                        </p>
                     </div>
                 </div>
-            </div>
 
+            </div>
+            <div>
+                <a href="carrito_de_compras.html" type="button" class="btn btn-primary position-relative">
+                    <!-- <a href="carrito_de_compras.html"></a> -->
+                    Carrito de compras
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                    <i class="bi bi-cart4"></i>
+                </a>
+            </div>
         </aside>
-        <br>
+
+        <br />
         <section class="mb-4 section-menu">
-            <div class="container text-center card" style="padding: 1em;">
+            <div class="container text-center card" style="padding: 1em">
                 <div class="row justify-content-md-center gy-4">
                     <!-- CARD 1 -->
                     <div class="col-lg-4 col-md-auto col-sm-auto">
                         <div class="row gy-4 card-image">
                             <h3>Pollo a la parrilla</h3>
                             <div class="img-container">
-                                <img class="img-card" src="img/pollo a la planta.jpeg" alt="img">
+                                <img class="img-card" src="img/pollo a la planta.jpeg" alt="img" />
                             </div>
                             <div>
                                 <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
-                                    data-bs-toggle="modal">Ver detalle
+                                    data-bs-toggle="modal">
+                                    Ver detalle
                                 </button>
                                 <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
                                     aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -58,38 +78,52 @@
                                         <div class="modal-content">
                                             <div class="modal-header back-mod">
                                                 <h2 class="modal-title fs-5 color-text" id="exampleModalToggleLabel">
-                                                    Usted
-                                                    selecciono pollo a la parrilla con verduras asadas</h2>
+                                                    Usted selecciono pollo a la parrilla
+                                                </h2>
                                                 <button type="button" class="btn-close close-modal"
                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
                                                 <div>
-                                                    <h4 class="title-img">Pollo a la parrilla con verduras asadas</h4>
-                                                    <p><strong>Descripcion:</strong> Jugosas pechugas de pollo a la
-                                                        parrilla servidas con una mezcla de verduras asadas, sazonadas
-                                                        con hierbas aromáticas y aceite de oliva.</p>
+                                                    <h4 class="title-img">
+                                                        Pollo a la parrilla con verduras asadas
+                                                    </h4>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Jugosas pechugas de
+                                                        pollo a la parrilla servidas con una mezcla de
+                                                        verduras asadas, sazonadas con hierbas aromáticas
+                                                        y aceite de oliva.
+                                                    </p>
 
                                                     <h4 class="title-img">Acompañamiento</h4>
-                                                    <p><strong>Descripcion:</strong> Arroz integral cocido en caldo de
-                                                        pollo y salteado con cebolla y ajo, adornado con almendras
-                                                        tostadas para darle un toque crujiente.</p>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Arroz integral
+                                                        cocido en caldo de pollo y salteado con cebolla y
+                                                        ajo, adornado con almendras tostadas para darle un
+                                                        toque crujiente.
+                                                    </p>
 
                                                     <h4 class="title-img">Bebida</h4>
-                                                    <p><strong>Descripcion:</strong> Una refrescante bebida hecha con
-                                                        limones exprimidos, fresas trituradas, agua y un toque de
-                                                        azúcar.</p>
-
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Una refrescante
+                                                        bebida hecha con limones exprimidos, fresas
+                                                        trituradas, agua y un toque de azúcar.
+                                                    </p>
 
                                                     <h4 class="title-img">Postre</h4>
-                                                    <p><strong>Descripcion:</strong> Una tarta dulce y reconfortante
-                                                        rellena de trozos de manzana sazonados con canela y azúcar,
-                                                        horneada hasta que esté dorada y crujiente.</p>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Una tarta dulce y
+                                                        reconfortante rellena de trozos de manzana
+                                                        sazonados con canela y azúcar, horneada hasta que
+                                                        esté dorada y crujiente.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="modal-footer back-mod">
                                                 <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
-                                                    data-bs-toggle="modal">Ordenar</button>
+                                                    data-bs-toggle="modal">
+                                                    Ordenar
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -100,35 +134,32 @@
                                         <div class="modal-content">
                                             <div class="modal-header back-mod">
                                                 <h1 class="modal-title fs-5 color-text" id="exampleModalToggleLabel2">
-                                                    Editar pedido</h1>
-                                                <button type="button" class="btn-close close-modal" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                                                    Editar pedido
+                                                </h1>
+                                                <button type="button" class="btn-close close-modal"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
+                                            <!-- contenedor de modal agregar pedidos -->
                                             <div class="modal-body">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                                                    dicta nostrum quam, id consectetur fugit, quisquam vel sed optio
-                                                    numquam dolores modi aliquam voluptatum perspiciatis iure, nemo
-                                                    cupiditate? Officiis id vel amet ratione fugiat earum voluptatum
-                                                    libero eligendi. Minus placeat quam molestiae rerum consectetur ut,
-                                                    eveniet fugit aliquid neque quia, voluptatem perferendis ipsum est
-                                                    molestias veniam? Quidem, aperiam! Neque nostrum doloremque
-                                                    perspiciatis voluptates architecto consequatur ad accusantium quidem
-                                                    veniam at aperiam impedit accusamus, nihil id maiores commodi ipsam
-                                                    beatae qui, quas maxime tempore. Molestiae doloribus voluptas
-                                                    placeat, atque consectetur fugiat voluptatum? Aliquam, culpa? Maxime
-                                                    omnis repellat dolorum tempore qui sequi voluptate blanditiis harum,
-                                                    earum ab, placeat ut ex, ullam nulla assumenda? Est quia commodi
-                                                    eaque dolorem enim porro fugiat a cupiditate ducimus placeat nihil
-                                                    molestias, dolores consequatur autem sint asperiores quis? Suscipit
-                                                    autem nostrum ut. Reprehenderit nesciunt temporibus voluptatem
-                                                    dolore voluptas libero. Magnam quia cum, ipsam provident dicta
-                                                    tempore? Neque.</p>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <label for="">Ingrese/seleccione cantidad</label>
+                                                            <input type="number" />
+                                                        </div>
+                                                        <br />
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="modal-footer back-mod">
-                                                <button class="btn btn-primary " data-bs-target="#exampleModalToggle"
-                                                    data-bs-toggle="modal">Regresar</button>
+                                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                                    data-bs-toggle="modal">
+                                                    Regresar
+                                                </button>
                                                 <button class="btn btn-primary" data-bs-target="#"
-                                                    data-bs-toggle="modal">Agregar orden</button>
+                                                    data-bs-toggle="modal">
+                                                    Agregar orden
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -139,13 +170,14 @@
                     <!-- CARD 2 -->
                     <div class="col-lg-4 col-md-auto col-sm-auto">
                         <div class="row gy-4 card-image">
-                            <h3>Pollo a la parrilla</h3>
+                            <h3>Alitas a la barbacoa</h3>
                             <div class="img-container">
-                                <img class="img-card" src="img/pollo a la planta.jpeg" alt="img">
+                                <img class="img-card" src="img/alitas_barbacoa.jpg" alt="img" />
                             </div>
                             <div>
                                 <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
-                                    data-bs-toggle="modal">Ver detalle
+                                    data-bs-toggle="modal">
+                                    Ver detalle
                                 </button>
                                 <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
                                     aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -153,38 +185,52 @@
                                         <div class="modal-content">
                                             <div class="modal-header back-mod">
                                                 <h2 class="modal-title fs-5 color-text" id="exampleModalToggleLabel">
-                                                    Usted
-                                                    selecciono pollo a la parrilla con verduras asadas</h2>
+                                                    Usted selecciono ALITAS A LA BARBACOA
+                                                </h2>
                                                 <button type="button" class="btn-close close-modal"
                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
                                                 <div>
-                                                    <h4 class="title-img">Pollo a la parrilla con verduras asadas</h4>
-                                                    <p><strong>Descripcion:</strong> Jugosas pechugas de pollo a la
-                                                        parrilla servidas con una mezcla de verduras asadas, sazonadas
-                                                        con hierbas aromáticas y aceite de oliva.</p>
+                                                    <h4 class="title-img">
+                                                        Pollo a la parrilla con verduras asadas
+                                                    </h4>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Jugosas pechugas de
+                                                        pollo a la parrilla servidas con una mezcla de
+                                                        verduras asadas, sazonadas con hierbas aromáticas
+                                                        y aceite de oliva.
+                                                    </p>
 
                                                     <h4 class="title-img">Acompañamiento</h4>
-                                                    <p><strong>Descripcion:</strong> Arroz integral cocido en caldo de
-                                                        pollo y salteado con cebolla y ajo, adornado con almendras
-                                                        tostadas para darle un toque crujiente.</p>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Arroz integral
+                                                        cocido en caldo de pollo y salteado con cebolla y
+                                                        ajo, adornado con almendras tostadas para darle un
+                                                        toque crujiente.
+                                                    </p>
 
                                                     <h4 class="title-img">Bebida</h4>
-                                                    <p><strong>Descripcion:</strong> Una refrescante bebida hecha con
-                                                        limones exprimidos, fresas trituradas, agua y un toque de
-                                                        azúcar.</p>
-
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Una refrescante
+                                                        bebida hecha con limones exprimidos, fresas
+                                                        trituradas, agua y un toque de azúcar.
+                                                    </p>
 
                                                     <h4 class="title-img">Postre</h4>
-                                                    <p><strong>Descripcion:</strong> Una tarta dulce y reconfortante
-                                                        rellena de trozos de manzana sazonados con canela y azúcar,
-                                                        horneada hasta que esté dorada y crujiente.</p>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Una tarta dulce y
+                                                        reconfortante rellena de trozos de manzana
+                                                        sazonados con canela y azúcar, horneada hasta que
+                                                        esté dorada y crujiente.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="modal-footer back-mod">
                                                 <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
-                                                    data-bs-toggle="modal">Ordenar</button>
+                                                    data-bs-toggle="modal">
+                                                    Ordenar
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -195,18 +241,24 @@
                                         <div class="modal-content">
                                             <div class="modal-header back-mod">
                                                 <h1 class="modal-title fs-5 color-text" id="exampleModalToggleLabel2">
-                                                    Editar pedido</h1>
+                                                    Editar pedido
+                                                </h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Hide this modal and show the first with the button below.
+                                                Hide this modal and show the first with the button
+                                                below.
                                             </div>
                                             <div class="modal-footer back-mod">
-                                                <button class="btn btn-primary " data-bs-target="#exampleModalToggle"
-                                                    data-bs-toggle="modal">Regresar</button>
+                                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                                    data-bs-toggle="modal">
+                                                    Regresar
+                                                </button>
                                                 <button class="btn btn-primary" data-bs-target="#"
-                                                    data-bs-toggle="modal">Agregar orden</button>
+                                                    data-bs-toggle="modal">
+                                                    Agregar orden
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -217,13 +269,14 @@
                     <!-- CARD 3 -->
                     <div class="col-lg-4 col-md-auto col-sm-auto">
                         <div class="row gy-4 card-image">
-                            <h3>Pollo a la parrilla</h3>
+                            <h3>Pollo al limón</h3>
                             <div class="img-container">
-                                <img class="img-card" src="img/pollo a la planta.jpeg" alt="img">
+                                <img class="img-card" src="img/pollo-con-limon.jpg" alt="img" />
                             </div>
                             <div>
                                 <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
-                                    data-bs-toggle="modal">Ver detalle
+                                    data-bs-toggle="modal">
+                                    Ver detalle
                                 </button>
                                 <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
                                     aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -231,38 +284,52 @@
                                         <div class="modal-content">
                                             <div class="modal-header back-mod">
                                                 <h2 class="modal-title fs-5 color-text" id="exampleModalToggleLabel">
-                                                    Usted
-                                                    selecciono pollo a la parrilla con verduras asadas</h2>
+                                                    Usted selecciono pollo al limón
+                                                </h2>
                                                 <button type="button" class="btn-close close-modal"
                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
                                                 <div>
-                                                    <h4 class="title-img">Pollo a la parrilla con verduras asadas</h4>
-                                                    <p><strong>Descripcion:</strong> Jugosas pechugas de pollo a la
-                                                        parrilla servidas con una mezcla de verduras asadas, sazonadas
-                                                        con hierbas aromáticas y aceite de oliva.</p>
+                                                    <h4 class="title-img">
+                                                        Pollo a la parrilla con verduras asadas
+                                                    </h4>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Jugosas pechugas de
+                                                        pollo a la parrilla servidas con una mezcla de
+                                                        verduras asadas, sazonadas con hierbas aromáticas
+                                                        y aceite de oliva.
+                                                    </p>
 
                                                     <h4 class="title-img">Acompañamiento</h4>
-                                                    <p><strong>Descripcion:</strong> Arroz integral cocido en caldo de
-                                                        pollo y salteado con cebolla y ajo, adornado con almendras
-                                                        tostadas para darle un toque crujiente.</p>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Arroz integral
+                                                        cocido en caldo de pollo y salteado con cebolla y
+                                                        ajo, adornado con almendras tostadas para darle un
+                                                        toque crujiente.
+                                                    </p>
 
                                                     <h4 class="title-img">Bebida</h4>
-                                                    <p><strong>Descripcion:</strong> Una refrescante bebida hecha con
-                                                        limones exprimidos, fresas trituradas, agua y un toque de
-                                                        azúcar.</p>
-
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Una refrescante
+                                                        bebida hecha con limones exprimidos, fresas
+                                                        trituradas, agua y un toque de azúcar.
+                                                    </p>
 
                                                     <h4 class="title-img">Postre</h4>
-                                                    <p><strong>Descripcion:</strong> Una tarta dulce y reconfortante
-                                                        rellena de trozos de manzana sazonados con canela y azúcar,
-                                                        horneada hasta que esté dorada y crujiente.</p>
+                                                    <p>
+                                                        <strong>Descripcion:</strong> Una tarta dulce y
+                                                        reconfortante rellena de trozos de manzana
+                                                        sazonados con canela y azúcar, horneada hasta que
+                                                        esté dorada y crujiente.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="modal-footer back-mod">
                                                 <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
-                                                    data-bs-toggle="modal">Ordenar</button>
+                                                    data-bs-toggle="modal">
+                                                    Ordenar
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -273,35 +340,47 @@
                                         <div class="modal-content">
                                             <div class="modal-header back-mod">
                                                 <h1 class="modal-title fs-5 color-text" id="exampleModalToggleLabel2">
-                                                    Editar pedido</h1>
+                                                    Editar pedido
+                                                </h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-                                                    odio fugiat a perspiciatis itaque, libero ea alias ipsam autem
-                                                    voluptate animi dicta velit voluptatum dolorem ratione aperiam!
-                                                    Omnis quisquam iure quo ab, incidunt minus magnam. Repellat
-                                                    corporis, obcaecati harum nulla vitae tenetur, adipisci quas
-                                                    blanditiis officia, architecto laudantium nobis. Excepturi nam ut
-                                                    esse eligendi laudantium soluta deleniti inventore, dicta vitae eum
-                                                    vero unde sed quod dolorum voluptatem minus doloribus ullam
-                                                    cupiditate id. Veniam reprehenderit dolores sequi repudiandae quas.
-                                                    Dolorem dolorum itaque, voluptatem et ipsam magnam sit nisi
-                                                    mollitia! Quidem, commodi harum cupiditate molestiae eos
-                                                    perspiciatis dignissimos aperiam, quas saepe dolorem animi
-                                                    aspernatur magnam labore sint a assumenda asperiores. Non, quasi
-                                                    dignissimos. Animi culpa earum a voluptatum totam ea veniam ipsa,
-                                                    aperiam corrupti ipsum fuga doloremque vitae! Deleniti nam, placeat
-                                                    optio vero a aliquam doloremque. Obcaecati eaque porro
-                                                    exercitationem reiciendis! Sit impedit eius commodi similique rem
-                                                    architecto corporis illum at rerum.</p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Assumenda odio fugiat a perspiciatis itaque,
+                                                    libero ea alias ipsam autem voluptate animi dicta
+                                                    velit voluptatum dolorem ratione aperiam! Omnis
+                                                    quisquam iure quo ab, incidunt minus magnam.
+                                                    Repellat corporis, obcaecati harum nulla vitae
+                                                    tenetur, adipisci quas blanditiis officia,
+                                                    architecto laudantium nobis. Excepturi nam ut esse
+                                                    eligendi laudantium soluta deleniti inventore, dicta
+                                                    vitae eum vero unde sed quod dolorum voluptatem
+                                                    minus doloribus ullam cupiditate id. Veniam
+                                                    reprehenderit dolores sequi repudiandae quas.
+                                                    Dolorem dolorum itaque, voluptatem et ipsam magnam
+                                                    sit nisi mollitia! Quidem, commodi harum cupiditate
+                                                    molestiae eos perspiciatis dignissimos aperiam, quas
+                                                    saepe dolorem animi aspernatur magnam labore sint a
+                                                    assumenda asperiores. Non, quasi dignissimos. Animi
+                                                    culpa earum a voluptatum totam ea veniam ipsa,
+                                                    aperiam corrupti ipsum fuga doloremque vitae!
+                                                    Deleniti nam, placeat optio vero a aliquam
+                                                    doloremque. Obcaecati eaque porro exercitationem
+                                                    reiciendis! Sit impedit eius commodi similique rem
+                                                    architecto corporis illum at rerum.
+                                                </p>
                                             </div>
                                             <div class="modal-footer back-mod">
-                                                <button class="btn btn-primary " data-bs-target="#exampleModalToggle"
-                                                    data-bs-toggle="modal">Regresar</button>
+                                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                                    data-bs-toggle="modal">
+                                                    Regresar
+                                                </button>
                                                 <button class="btn btn-primary" data-bs-target="#"
-                                                    data-bs-toggle="modal">Agregar orden</button>
+                                                    data-bs-toggle="modal">
+                                                    Agregar orden
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -315,17 +394,17 @@
         <section class="mb-4 section-pagination">
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-center">
-                  <li class="page-item disabled">
-                    <a class="page-link">Previous</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                  </li>
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
                 </ul>
-              </nav>
+            </nav>
         </section>
     </main>
     <footer class="footer-menu"></footer>
